@@ -7,10 +7,15 @@ import { siteConfig } from "../config";
   class="relative isolate overflow-hidden bg-white py-24 md:h-screen"
   style={`--accent-color: ${siteConfig.accentColor}`}
 >
-  <!-- Hero background image -->
+  <!-- Hero image -->
   <div
-    class="hidden md:block absolute right-6 inset-y-6 w-2/5 -z-20 bg-right bg-no-repeat bg-contain opacity-[0.8]"
+    class="hidden md:block absolute right-12 top-12 bottom-4 w-2/5 -z-20 bg-right bg-no-repeat bg-contain opacity-[0.8]"
     style="background-image: url('/ascii_portrait.webp')"
+  >
+  </div>
+  <div
+    class="md:hidden absolute right-12 top-12 bottom-4 w-3/10 -z-20 bg-right bg-no-repeat bg-contain opacity-[0.8]"
+    style="background-image: url('/ascii_portrait_small.webp')"
   >
   </div>
   <!-- Gradient overlay -->
@@ -136,7 +141,7 @@ import { siteConfig } from "../config";
         <!-- Hello Friend! -->
       </h2>
       <h1
-        class="mt-6 sm:mt-8 md:mt-10 text-pretty text-2xl sm:text-3xl md:text-2xl lg:text-4xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200"
+        class="mt-6 sm:mt-8 md:mt-10 text-pretty text-xl sm:text-2xl md:text-2xl lg:text-4xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200"
       >
         <!-- I'm -->
         <span style={{ color: siteConfig.accentColor }}>{siteConfig.name}</span>
