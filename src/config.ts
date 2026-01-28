@@ -2,10 +2,11 @@ export const siteConfig = {
   name: 'Aste Ploug Henriksen',
   title: 'Software Engineer',
   description: 'Portfolio website of Aste Ploug Henriksen',
-  accentColor: '#174bdb',
+  // accentColor: '#2563EB',
+  accentColor: '#4F46E5',
   symbolColor: '#000000',
   social: {
-    email: 'your-email@example.com',
+    email: 'aste@tuta.io',
     linkedin: 'https://linkedin.com/in/aste',
     twitter: 'https://x.com/asteploug',
     github: 'https://github.com/aste',

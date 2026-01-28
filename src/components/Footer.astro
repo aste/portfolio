@@ -2,11 +2,14 @@
 import { siteConfig } from "../config";
 ---
 
-<footer class="relative bg-gray-50 border-t border-gray-200">
-  <div class="mx-auto max-w-6xl px-6 py-12 lg:px-8">
+<footer
+  class="relative bg-gray-50 border-t border-gray-200"
+  style={`--accent-color: ${siteConfig.accentColor}`}
+>
+  <div class="p-8 sm:p-12 md:p-16 lg:p-24">
     <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
       <div class="flex flex-col gap-2">
-        <h3 class="text-2xl font-bold text-gray-800">
+        <h3 class="text-xl font-bold text-gray-800">
           {siteConfig.name}
         </h3>
         <p class="mt-0 text-base text-gray-600">
@@ -42,7 +45,7 @@ import { siteConfig } from "../config";
                 <span
                   id="footer-email-tooltip"
                   role="tooltip"
-                  class="pointer-events-none absolute bottom-full left-1/2 mb-2 hidden -translate-x-1/2 whitespace-nowrap rounded bg-gray-900 px-2 py-1 text-xs text-white group-hover:block group-focus-within:block"
+                  class="pointer-events-none absolute bottom-full left-1/2 mb-2 hidden -translate-x-1/2 whitespace-nowrap rounded bg-[var(--accent-color)] px-2 py-1 text-xs text-white group-hover:block group-focus-within:block"
                 >
                   Email
                 </span>
@@ -85,7 +88,7 @@ import { siteConfig } from "../config";
                 <span
                   id="footer-linkedin-tooltip"
                   role="tooltip"
-                  class="pointer-events-none absolute bottom-full left-1/2 mb-2 hidden -translate-x-1/2 whitespace-nowrap rounded bg-gray-900 px-2 py-1 text-xs text-white group-hover:block group-focus-within:block"
+                  class="pointer-events-none absolute bottom-full left-1/2 mb-2 hidden -translate-x-1/2 whitespace-nowrap rounded bg-[var(--accent-color)] px-2 py-1 text-xs text-white group-hover:block group-focus-within:block"
                 >
                   LinkedIn
                 </span>
@@ -124,7 +127,7 @@ import { siteConfig } from "../config";
                 <span
                   id="footer-twitter-tooltip"
                   role="tooltip"
-                  class="pointer-events-none absolute bottom-full left-1/2 mb-2 hidden -translate-x-1/2 whitespace-nowrap rounded bg-gray-900 px-2 py-1 text-xs text-white group-hover:block group-focus-within:block"
+                  class="pointer-events-none absolute bottom-full left-1/2 mb-2 hidden -translate-x-1/2 whitespace-nowrap rounded bg-[var(--accent-color)] px-2 py-1 text-xs text-white group-hover:block group-focus-within:block"
                 >
                   Twitter
                 </span>
@@ -163,7 +166,7 @@ import { siteConfig } from "../config";
                 <span
                   id="footer-github-tooltip"
                   role="tooltip"
-                  class="pointer-events-none absolute bottom-full left-1/2 mb-2 hidden -translate-x-1/2 whitespace-nowrap rounded bg-gray-900 px-2 py-1 text-xs text-white group-hover:block group-focus-within:block"
+                  class="pointer-events-none absolute bottom-full left-1/2 mb-2 hidden -translate-x-1/2 whitespace-nowrap rounded bg-[var(--accent-color)] px-2 py-1 text-xs text-white group-hover:block group-focus-within:block"
                 >
                   GitHub
                 </span>
@@ -202,7 +205,7 @@ import { siteConfig } from "../config";
                 <span
                   id="footer-resume-tooltip"
                   role="tooltip"
-                  class="pointer-events-none absolute bottom-full left-1/2 mb-2 hidden -translate-x-1/2 whitespace-nowrap rounded bg-gray-900 px-2 py-1 text-xs text-white group-hover:block group-focus-within:block"
+                  class="pointer-events-none absolute bottom-full left-1/2 mb-2 hidden -translate-x-1/2 whitespace-nowrap rounded bg-[var(--accent-color)] px-2 py-1 text-xs text-white group-hover:block group-focus-within:block"
                 >
                   Resume
                 </span>
