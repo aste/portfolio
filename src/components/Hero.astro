@@ -4,7 +4,7 @@ import { siteConfig } from "../config";
 
 <div
   id="hero"
-  class="relative isolate overflow-hidden bg-white py-24 md:h-screen"
+  class="relative isolate overflow-hidden bg-white py-48 md:h-screen"
   style={`--accent-color: ${siteConfig.accentColor}`}
 >
   <!-- Hero image -->
@@ -14,20 +14,20 @@ import { siteConfig } from "../config";
   >
   </div>
   <div
-    class="md:hidden absolute right-12 top-12 bottom-4 w-3/10 -z-20 bg-right bg-no-repeat bg-contain opacity-[0.8]"
+    class="md:hidden absolute right-8 top-8 bottom-8 w-3/10 -z-20 bg-right bg-no-repeat bg-contain opacity-[0.8]"
     style="background-image: url('/ascii_portrait_small.webp')"
   >
   </div>
 
   <div class="h-full mx-auto p-8 sm:p-12 md:p-24 flex items-center">
-    <div>
+    <div class="max-w-[60%]">
       <h1
-        class="mt-6 sm:mt-8 md:mt-10 text-pretty text-xl sm:text-2xl md:text-2xl lg:text-4xl font-bold tracking-tight text-gray-800 animate-fade-in"
+        class="text-pretty text-xl sm:text-2xl md:text-2xl lg:text-4xl font-bold tracking-tight text-gray-800 animate-fade-in text-[clamp(1.5rem,4vw,2.25rem)]"
       >
         <span style={{ color: siteConfig.accentColor }}>{siteConfig.name}</span>
       </h1>
       <p
-        class="mt-1 sm:mt-2 md:mt-3 text-pretty text-base sm:text-lg md:text-xl/8 font-medium text-gray-600 animate-fade-in animation-delay-200"
+        class="mt-1 sm:mt-2 md:mt-3 text-pretty text-base sm:text-lg md:text-xl/8 font-medium text-gray-600 animate-fade-in animation-delay-200 text-[clamp(1rem,2.5vw,1.25rem)]"
       >
         {siteConfig.title}
       </p>
