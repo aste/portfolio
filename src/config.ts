@@ -9,9 +9,10 @@ export const siteConfig = {
     linkedin: "https://linkedin.com/in/aste",
     twitter: "https://x.com/asteploug",
     github: "https://github.com/aste",
+    resume: "https://github.com/aste",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "I’m a software engineer with a background in civil engineering and data-driven design. I build scalable, intuitive products with a strong focus on usability and thoughtful engineering. I enjoy working on mission-driven teams that value curiosity, collaboration and challenging conventions to deliver efficient, meaningful solutions.",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
