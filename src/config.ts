@@ -7,34 +7,43 @@ export const siteConfig = {
   social: {
     email: 'aste@tuta.io',
     linkedin: 'https://linkedin.com/in/aste',
-    twitter: 'https://x.com/asteploug',
+    twitter: '',
     github: 'https://github.com/aste',
     resume: 'https://github.com/aste',
   },
   aboutMe:
     'I’m a <strong>software engineer</strong> with a background in <strong>civil engineering</strong> and <strong>data-driven design</strong>. I build <strong>scalable, intuitive products</strong> with a strong focus on <strong>usability</strong> and <strong>thoughtful engineering</strong>. I enjoy working on <strong>mission-driven teams</strong> that value <strong>curiosity</strong>, <strong>collaboration</strong> and <strong>challenging conventions</strong> to deliver <strong>efficient</strong> and <strong>meaningful solutions</strong>.',
 
-  skills: ['Javascript', 'React', 'Node.js', 'Python', 'AWS', 'Docker'],
+  skills: [
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Node.js',
+    'Express',
+    'HTML',
+    'CSS',
+    'Tailwind',
+    'Astro',
+    'Vite',
+    'PostgreSQL',
+    'MongoDB',
+    'Jest',
+    'Git',
+  ],
+
   projects: [
     {
-      name: 'AI Dev Roundup Newsletter',
+      name: 'Tandklinikken Frederikssund',
       description:
         'One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples',
-      link: 'https://aidevroundup.com/?ref=devportfolio',
-      skills: ['React', 'Node.js', 'AWS'],
+      link: 'https://tandklinikken-frederikssund.dk/',
+      skills: ['JavaScript', 'Bootstrap', 'Netlify', 'CI/CD', ],
     },
     {
       name: 'Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js',
       description:
         'Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices',
       link: 'https://fullstackextensions.com/?ref=devportfolio',
-      skills: ['React', 'Node.js', 'AWS'],
-    },
-    {
-      name: 'ExtensionKit',
-      description:
-        'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples',
-      link: 'https://extensionkit.io/?ref=devportfolio',
       skills: ['React', 'Node.js', 'AWS'],
     },
   ],
