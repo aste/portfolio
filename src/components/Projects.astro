@@ -63,6 +63,21 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                           }`}
                         >
                           {project.description}
+                          {project.bullets &&
+                            project.bullets.length > 0 && (
+                              <div class="relative">
+                                <ul class="space-y-2">
+                                  {project.bullets.map((bullet, bulletIndex) => (
+                                    <li class="flex items-start" key={`${bullet}-${bulletIndex}`}>
+                                      <span class="inline-block w-1.5 h-1.5 rounded-full bg-gray-400 mt-2 mr-3 flex-shrink-0" />
+                                      <span class="text-sm sm:text-base text-gray-600">
+                                        {bullet}
+                                      </span>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            )}
                         </p>
 
                         {project.skills && project.skills.length > 0 && (
