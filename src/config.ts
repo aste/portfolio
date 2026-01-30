@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: 'Aste Ploug Henriksen',
-  title: 'Software Engineer',
+  title: 'Software Engineer | Developing Scalable Products',
   description: 'Portfolio website of Aste Ploug Henriksen',
   accentColor: '#4F46E5', // Secondary Color '#007fff'
   symbolColor: '#000000',
