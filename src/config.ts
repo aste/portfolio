@@ -36,6 +36,7 @@ export const siteConfig = {
       description:
         'One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples',
       link: 'https://tandklinikken-frederikssund.dk/',
+      github: 'https://github.com/aste/dentistFrs',
       skills: ['JavaScript', 'Bootstrap', 'Netlify', 'CI/CD'],
     },
     {
