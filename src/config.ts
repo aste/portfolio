@@ -26,7 +26,6 @@ export const siteConfig = {
     'Astro',
     'Vite',
     'PostgreSQL',
-    'MongoDB',
     'Jest',
     'Git',
   ],
