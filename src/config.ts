@@ -2,7 +2,7 @@ export const siteConfig = {
   name: 'Aste Ploug Henriksen',
   title: 'Software Engineer',
   description: 'Portfolio website of Aste Ploug Henriksen',
-  accentColor: '#4F46E5',
+  accentColor: '#4F46E5', // Secondary Color '#007fff'
   symbolColor: '#000000',
   social: {
     email: 'aste@tuta.io',
@@ -37,7 +37,7 @@ export const siteConfig = {
       description:
         'One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples',
       link: 'https://tandklinikken-frederikssund.dk/',
-      skills: ['JavaScript', 'Bootstrap', 'Netlify', 'CI/CD', ],
+      skills: ['JavaScript', 'Bootstrap', 'Netlify', 'CI/CD'],
     },
     {
       name: 'Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js',
@@ -80,26 +80,5 @@ export const siteConfig = {
       ],
     },
   ],
-  education: [
-    {
-      school: 'University Name',
-      degree: 'Bachelor of Science in Computer Science',
-      dateRange: '2014 - 2018',
-      achievements: [
-        'Graduated Magna Cum Laude with 3.8 GPA',
-        "Dean's List all semesters",
-        'President of Computer Science Club',
-      ],
-    },
-    {
-      school: 'Online Platform',
-      degree: 'Full Stack Development Certificate',
-      dateRange: '2019',
-      achievements: [
-        'Completed 500+ hours of coursework',
-        'Built 10+ portfolio projects',
-        'Specialized in React and Node.js',
-      ],
-    },
-  ],
+  education: [],
 };
