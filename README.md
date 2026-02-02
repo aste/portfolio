@@ -1,4 +1,4 @@
-# Dev Portfolio (Astro + Tailwind)
+# Dev Portfolio
 
 A personal portfolio website built with Astro and Tailwind CSS. The site renders a single-page layout composed of reusable Astro components and pulls all content from a centralized configuration file.
 
