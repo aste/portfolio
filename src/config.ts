@@ -9,7 +9,7 @@ export const siteConfig = {
     linkedin: 'https://linkedin.com/in/aste',
     twitter: '',
     github: 'https://github.com/aste',
-    resume: 'resume.pdf',
+    resume: 'resume_aste_ploug_henriksen.pdf',
   },
   aboutMe:
     'I’m a <strong>software engineer</strong> with a background in <strong>civil engineering</strong> and <strong>data-driven design</strong>. I build <strong>scalable, intuitive products</strong> with a strong focus on <strong>usability</strong> and <strong>thoughtful engineering</strong>. I enjoy working on <strong>mission-driven teams</strong> that value <strong>curiosity</strong>, <strong>collaboration</strong> and <strong>challenging conventions</strong> to deliver <strong>efficient</strong> and <strong>meaningful solutions</strong>.',
