@@ -69,16 +69,16 @@ npm run preview
 The content lives in the src/config.ts file, update the fields there to change the portfolio data:
 
 - **Personal Information**: Name, title, description
-- **Accent Color**: Primary color theme (changing this will change the accent color site wide)
-- **Social Links**: Email, LinkedIn, Twitter, GitHub (all optional)
-- **About Section**: Personal bio/description
+- **Accent Color**: Primary theme color
+- **Social Links**: Email, LinkedIn, Twitter, GitHub & Resume Link
+- **About Section**: Personal bio
 - **Skills**: List of technical skills
-- **Projects**: Project showcase with descriptions and links
-- **Blog**: A collection of articles
+- **Projects**: Project showcase with descriptions, skills and links
+- **Blog**: A collection of markdown articles for the blog
 - **Experience**: Work history with bullet points
 - **Education**: Educational background and achievements
 
-If skills, projects, blog, experience or education are removed from the config, those sections will be hidden entirely.
+All fields are optional and will be hidden from the site if absent in the config file.
 
 ## Deployment
 
