@@ -13,7 +13,7 @@ A personal portfolio website built with Astro and Tailwind CSS. The site renders
 
 - **[Astro](https://astro.build/)** - Static site generator for modern web apps
 - **[Tailwind CSS v4](https://tailwindcss.com/)** - Utility-first CSS framework
-- **[TypeScript] (https://www.typescriptlang.org/)** - For type-safety and better tooling at any scale
+- **[TypeScript](https://www.typescriptlang.org/)** - For type-safety and better tooling at any scale
 - **[Tabler Icons](https://tabler.io/icons)** - Free and open source icons
 
 ## Getting started
