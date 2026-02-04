@@ -9,6 +9,13 @@ A personal portfolio website built with Astro and Tailwind CSS. The site renders
 - Centralized content and theme configuration in `src/config.ts`.
 - Modular sections for hero, about, projects, experience, and education.
 
+## Built With
+
+- **[Astro](https://astro.build/)** - Static site generator for modern web apps
+- **[Tailwind CSS v4](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[TypeScript] (https://www.typescriptlang.org/)** - For type-safety and better tooling at any scale
+- **[Tabler Icons](https://tabler.io/icons)** - Free and open source icons
+
 ## Getting started
 
 ### Prerequisites
@@ -59,12 +66,19 @@ npm run preview
 
 ## Updating content
 
-Most of the content lives in `src/config.ts`. Update the fields there to change the portfolio data:
+The content lives in the src/config.ts file, update the fields there to change the portfolio data:
 
-- `name`, `title`, `description`: Headline and metadata.
-- `accentColor`, `symbolColor`: Theme colors used across the site.
-- `social`: Links for email, LinkedIn, GitHub, resume, etc.
-- `aboutMe`, `skills`, `projects`, `experience`, `education`: Section content.
+- **Personal Information**: Name, title, description
+- **Accent Color**: Primary color theme (changing this will change the accent color site wide)
+- **Social Links**: Email, LinkedIn, Twitter, GitHub (all optional)
+- **About Section**: Personal bio/description
+- **Skills**: List of technical skills
+- **Projects**: Project showcase with descriptions and links
+- **Blog**: A collection of articles
+- **Experience**: Work history with bullet points
+- **Education**: Educational background and achievements
+
+If skills, projects, blog, experience or education are removed from the config, those sections will be hidden entirely.
 
 ## Deployment
 
