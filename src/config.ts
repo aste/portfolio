@@ -7,8 +7,8 @@ export const siteConfig = {
   social: {
     email: 'aste@tuta.io',
     linkedin: 'https://linkedin.com/in/aste',
-    twitter: 'https://x.com/asteploug',
-    github: '',
+    twitter: '',
+    github: 'https://github.com/aste',
     resume: 'resume_aste_ploug_henriksen.pdf',
   },
   aboutMe:
